@@ -8,7 +8,7 @@ function envFromFile() {
     readFileSync('.env', 'utf8').split('\n').map((l) => l.match(/^\s*([A-Z_]+)\s*=\s*(.*)\s*$/)).filter(Boolean).map((m) => [m[1], m[2]]),
   );
 }
-const site = (process.env.SITE_URL || process.env.VITE_SITE_URL || envFromFile().VITE_SITE_URL || 'https://www.example.com').replace(/\/$/, '');
+const site = (process.env.SITE_URL || process.env.VITE_SITE_URL || envFromFile().VITE_SITE_URL || 'https://toolnest2.pages.dev').replace(/\/$/, '');
 
 const grab = (file, re) => [...readFileSync(file, 'utf8').matchAll(re)].map((m) => m[1]);
 const toolSlugs = grab('src/data/tools.ts', /^\s+slug: '([^']+)'/gm);

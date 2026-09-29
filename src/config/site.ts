@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'ToolNest',
   // Set VITE_SITE_URL in .env / your host's environment settings.
-  url: ((import.meta.env.VITE_SITE_URL as string | undefined) || 'https://www.example.com').replace(/\/$/, ''),
+  url: ((import.meta.env.VITE_SITE_URL as string | undefined) || ' https://toolnest2.pages.dev ' ).replace(/\/$/, ''),
   tagline: 'Free Online Tools That Make Everyday Tasks Easier',
   description:
     'Free online calculators, converters, text and image tools. No sign-up needed, and most tools run entirely in your browser.',
