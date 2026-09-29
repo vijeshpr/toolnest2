@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/age-calculator</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/emi-calculator</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/gst-calculator</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/percentage-calculator</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/unit-converter</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/word-counter</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/case-converter</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/qr-code-generator</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/image-compressor</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/tools/image-resizer</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/finance</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/calculators</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/image-tools</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/text-tools</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/converters</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/developer-tools</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/categories/productivity</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/about</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/contact</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/privacy-policy</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://www.example.com/terms-of-service</loc><lastmod>2026-09-29</lastmod></url>
+</urlset>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ToolNest – Free Online Tools That Make Everyday Tasks Easier</title>
+    <meta name="description" content="Free online calculators, converters, text and image tools. No sign-up. Most tools run entirely in your browser." />
+    <meta name="theme-color" content="#147d78" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Apply saved/system theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>ToolNest needs JavaScript enabled to run its tools.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
